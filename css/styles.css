@@ -1,0 +1,1382 @@
+/* fonts */
+
+@font-face {
+  font-family: 'Ofl Sort Mill Goudy';
+  src: url('../fonts/ofl_sorts_mill_goudy/OFLGoudyStM.otf');
+  src: url('../fonts/ofl_sorts_mill_goudy/OFLGoudyStMTT.ttf');
+}
+
+
+p {
+	word-break: break-all;
+}
+
+/* font-family: 'Open Sans', sans-serif; */
+
+
+/*.owl-dots {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.owl-dot {
+	width: 15px;
+	height: 15px;
+	border: 1px solid #ccc;
+	background: #333;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+.owl-dot.active {
+	background: #ffa60a;
+}*/
+
+
+/****************************
+ * STYLES OF HEADER
+ *******************************
+ *
+ *
+ *
+ **/
+
+#head_menu_header {
+	width: 100%;
+	max-width: 1050px;
+	margin: 0 auto;
+	position: relative;
+	border-bottom: solid 1px rgba(255, 255, 255, .75);
+	padding-bottom: 10px;
+}
+
+#head_menu_header > a > div,
+#head_menu_header > div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#head_menu_header > a > #logo_unam_2 {
+	display: none;
+	width: 60px;
+    padding: 2px 0;
+    background-color: rgb(198, 146, 0);
+    /**/
+    transition: all 200ms linear;
+}
+
+#head_menu_header > a > #logo_unam_2 > img {
+	margin: 0 auto;
+	display: block;
+	border: none;
+	width: 40px;
+}
+
+#head_menu_header > a > #h1_header > h1 {
+	margin: 0;
+	color: rgb(255, 255, 255);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 21px;
+}
+
+#head_menu_header > .right-header {
+	display: none;
+	position: absolute;
+	right: 10px;
+    top: 6px;
+}
+
+#head_menu_header > .right-header > div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#head_menu_header > .right-header > #logo_cnyn_2  img {
+	width: 50px;
+}
+
+#head_menu_header > .right-header > .btn_menu {
+	display: none;
+}
+
+#head_menu_header > .right-header > .btn_menu > #btn_menu {
+    display: block;
+    width: 44px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+
+#menu_header {
+ 	width: 100%;
+ 	background-color: rgba(42, 76, 114, 0.8);
+ 	padding-top: 32px;
+ 	position: fixed;
+ 	z-index: 2;
+ 	top: 0;
+ 	/**/
+ 	transition: padding 200ms linear;
+}
+
+/*#menu_header > nav {
+	overflow: hidden;
+    width: 100%;
+    max-width: 752px;
+    margin: 0 auto;
+    padding-bottom: 12px;
+    border-bottom: solid 1px rgb(255,255,255);
+}*/
+
+#menu_header > nav {
+	position: relative;
+ 	width: 100%;
+ 	max-width: 1366px;
+	margin: 0 auto;
+}
+
+#menu_header > nav > ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	font-size: 0;
+}
+
+#menu_header > nav > ul > li {
+	display: inline-block;
+}
+
+#menu_header > nav a {
+	display: block;
+	text-decoration: none;
+	font-size: 17px;
+	color: rgb(255, 255, 255);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	padding: 10px 15px;
+	/**/
+	transition: color 200ms linear;
+}
+
+#menu_header > nav ul li:hover > a {
+	color: rgb(198, 146, 0);
+}
+
+#menu_header > nav ul li:hover > ul {
+	display: block;
+}
+
+#menu_header > nav > ul > li > ul {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	font-size: 17px;
+	background-color: rgba(42, 76, 114, 0.8);
+	list-style: none;
+	display: none;
+}
+
+#menu_header > nav > div#logo-unam {
+	width: 110px;
+	/*width: 139px;*/
+    padding: 16px 0;
+    background-color: rgb(198, 146, 0);
+    position: absolute;
+    top: -66px;
+    /**/
+	transition: all 200ms linear;
+}
+
+#menu_header > nav > div#logo-unam > img {
+	display: block;
+	margin: 0 auto;
+}
+
+#svg-unam-logo{
+	width: 87px;
+	/**/
+	transition: width 200ms linear;	
+}
+
+#svg-unam {
+	width: 83px;
+}
+
+#menu_header > nav  #logo-cnyn {
+	position: absolute;
+	top: -48px;
+	right: 0;
+	width: 86px;
+	/**/
+	transition: all 200ms linear;
+}
+
+/****************************
+ * STYLES OF FOOTER
+ *******************************
+ *
+ *
+ *
+ **/
+
+footer {
+	width: 100%;
+}
+
+#footer-one {
+	width: 100%;
+	background-color: #1A2E3D;
+	overflow: hidden;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	padding: 82px 0;
+}
+
+#footer-one-content {
+	width: 90%;
+	max-width: 1366px;
+	margin: 0 auto;
+}
+
+.footer-ul {
+	margin: 0 40px;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+.footer-ul li:before{
+   content: '';
+   display: inline-block;
+   height: 10px;
+   width: 10px;
+   background-image: url('../img/svg/bullet_1_c4c4c4.svg');
+   background-repeat: no-repeat;
+}
+
+.footer-ul a {
+	color: #e9e9e9;
+}
+
+#footer-table {
+	float: right;
+    color: #e9e9e9;
+    width: 100%;
+    max-width: 338px;
+    height: 125px;
+}
+
+#footer-table td.border {
+	border-left: solid 1px #5D5D5D;
+	/*padding-left: 15px;*/
+	padding: 0 15px;
+}
+
+#td-mapita {
+	vertical-align: top;
+}
+
+#a-mapita {
+	display: block;
+	position: relative;
+}
+
+#a-mapita:before{
+	content: '';
+	width: 1px;
+	height: 50px;
+	background-color: #5D5D5D;
+	display: block;
+	position: absolute;
+	bottom: 7px;
+}
+
+#a-mapita > img {
+	display: block;
+	width: 62px;
+	margin-left: 7px;
+}
+
+#footer-two {
+	width: 100%;
+	background: purple;
+	overflow: hidden;
+	background-color: #5D5D5D;
+	padding: 26px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: rgb(255, 255, 255);
+}
+
+#footer-two > p {
+	text-align: center;
+	width: 90%;
+	max-width: 625px;
+    margin: 0 auto;
+}
+
+/****************************
+ * STYLES
+ *******************************
+ *
+ *
+ *
+ **/
+
+div#wrapper {
+	width: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+}
+
+.secciones {
+	width: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.div-as-table {
+	width: 100%;
+	min-height: 100%;
+	display: table;
+	overflow: hidden;
+}
+
+.div-as-table > div {
+	vertical-align: middle;
+	display: table-cell;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.article-607 {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 607px;
+}
+
+.background-star {
+	background-image: url('../img/cnyn_fisica_teorica_img2.jpg');
+	background-size: cover;
+}
+
+article {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 17px;
+	color: #C4C4C4;
+	text-align: justify;
+}
+
+article > header > h2 {
+	font-family: 'Ofl Sort Mill Goudy', sans-serif;
+	font-size: 50px;
+	color: rgb(198, 146, 0);
+	text-align: center;
+	margin: 25px 0;
+}
+
+.titulo-50 {
+	font-family: 'Ofl Sort Mill Goudy', sans-serif;
+	font-size: 50px;
+	color: rgb(198, 146, 0);
+	text-align: center;
+	margin: 45px 0;
+}
+
+.titulo-50 > a {
+	text-decoration: none;
+	color: rgb(198, 146, 0);
+}
+
+.titulo-50 > a:hover {
+	text-decoration: none;
+	color: rgb(198, 146, 0);
+}
+
+.video {
+	bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    /**/
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.video video {
+	min-height: 100%;
+    min-width: 100%;
+}
+
+.video-maya-01 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-image: url('../img/texturas/pix_maya.png');
+    background-repeat: repeat; 
+}
+
+.video-maya-02 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-image: url('../img/texturas/pix_maya2.png');
+    background-repeat: repeat; 
+}
+
+.title-page {
+	position: relative;
+	overflow: hidden;
+	min-height: 259px;
+	width: 100%;
+	transition: min-height 200ms linear;
+}
+
+.title-page h2 {
+	font-family: 'Ofl Sort Mill Goudy', sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
+
+.span-triangule {
+	margin-right: 3px;
+}
+
+.wrapper-slide {
+	float: left;
+	width: 50%;
+}
+
+.wrapper-slide > header {
+	padding: 1px;
+}
+
+
+/****************************
+ * STYLES INDEX
+ *******************************
+ *
+ *
+ *
+ **/
+
+#inicio-owl-carousel .owl-item {
+	min-height: 100%;
+	position: relative;
+}
+
+#inicio-owl-carousel .owl-prev {
+	position: absolute;
+	left: 20px;
+	top: 50%;
+}
+
+#inicio-owl-carousel .owl-next {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+}
+
+#inicio-owl-carousel h2 {
+	font-family: 'Ofl Sort Mill Goudy', sans-serif;
+	font-size: 75px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.item-inicio {
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.item-inicio-info {
+	background-color: rgba(0,0,0,.5);
+	position: absolute;
+	bottom: 10%;
+	right: 100px;
+	padding: 30px;
+}
+
+.item-inicio-info a {
+	text-align: left;
+	color: rgb(255,255,255);
+	text-decoration: none;
+	font-size: 60px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+.item-inicio-info a span {
+	display: inline-block;
+}
+
+.item-inicio-info a span img {
+	width: 25px !important;
+}
+
+#molecula {
+	display: block;
+    width: 260px;
+    margin: 0 auto;
+}
+
+.eventos-noticias-owl-carousel {
+	width: 90%;
+	max-width: 1366px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.eventos-noticias-owl-carousel .owl-dots {
+	margin: 45px auto;
+	text-align: center;
+}
+
+.eventos-noticias-owl-carousel .owl-dot {
+	width: 17px;
+	height: 17px;
+	background-color: #1A2E3D;
+	margin-right: 17px;
+	display: inline-block;
+}
+
+.eventos-noticias-owl-carousel .owl-dot.active {
+	background: rgb(198, 146, 0);
+}
+
+.eventos-noticias-owl-carousel .owl-item {
+	position: relative;
+	padding: 0 15px;
+}
+
+.eventos-noticias-owl-carousel .owl-item > div > .card {
+	border: solid 1px #c4c4c4;
+	display: block;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.eventos-noticias-owl-carousel .owl-item > div > .card > a {
+	text-decoration: none;
+	display: block;
+}
+
+.eventos-noticias-owl-carousel .owl-item > div > .card > a > article > header {
+	margin: 0 0 5px 0;
+	padding: 0 0 0 15px;
+}
+
+.eventos-noticias-owl-carousel .owl-item > div > .card > a > article > header > h3 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 600;
+	color: #666666;
+}
+
+.eventos-noticias-owl-carousel .owl-item > div > .card > a > article > header > span {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.eventos-noticias-owl-carousel .owl-item > div > .card > a > article > img {
+	display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 35%;
+    height: auto;
+}
+
+.eventos-noticias-owl-carousel .owl-item > div > .card > a > article > p {
+	position: relative;
+	display: inline-block;
+    vertical-align: top;
+    width: 63%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: .9%;
+    padding-bottom: 15px;
+    color: #666666;
+    word-break: break-word;
+    min-height: 124px;
+}
+
+.eventos-noticias-owl-carousel .owl-item > div > .card > a > article > p:after {
+	content: '';
+    width: 100%;
+    height: 5px;
+    background-color: rgb(198, 146, 0);
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+#eventos-owl-carousel {
+	margin-right: 0;
+}
+
+#noticias-owl-carousel {
+	margin-left: 0;
+}
+
+/****************************
+ * STYLES DIRECTORIO
+ *******************************
+ *
+ *
+ *
+ **/
+
+nav.nav-directorio {
+	border-bottom: solid 1px #C4C4C4;
+	padding: 8px 0;
+}
+
+nav.nav-directorio > ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	font-size: 0px;
+}
+
+nav.nav-directorio > ul > li {
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	border-right: solid 1px #C4C4C4;
+}
+
+nav.nav-directorio > ul > li:last-child {
+	border-right: none;
+}
+
+nav.nav-directorio > ul > li > a {
+	display: block;
+	padding: 6px 12px;
+	text-decoration: none;
+	color: #666666;
+	transition: all 50ms linear;
+}
+
+nav.nav-directorio > ul > li > a:hover {
+	color: rgb(198, 146, 0);
+}
+
+a.nav-directorio-select {
+	font-weight: 600;
+	color: rgb(198, 146, 0) !important;
+}
+
+.background-personal-academico {
+	background-image: url('../img/cnyn_fisica_teorica_personal_academico_img_fondo.jpg');
+    background-size: cover;
+    background-position: 1% 245%;
+    background-attachment: fixed;
+}
+
+#profiles {
+	width: 90%;
+	max-width: 1665px;
+	margin: 0 auto;
+	display: block;
+	text-align: left;
+	padding: 30px;
+}
+
+#profiles > .card {
+	width: 100%;
+	max-width: 800px;
+	/*border-bottom: solid 1px #C4C4C4;*/
+	display: inline-block;
+	padding: 30px;
+	position: relative;
+}
+
+#profiles > .card:after {
+	display: block;
+    content: '';
+    height: 1px;
+    background-color: #c4c4c4;
+    bottom: 0;
+    left: 30px;
+    position: absolute;
+    width: 93%;
+}
+
+#profiles > .card > a {
+	display: block;
+	text-decoration: none;
+	font-size: 0;
+}
+
+#profiles > .card > article {
+	font-size: 0;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+#profiles > .card > article > div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#profiles > .card > article > div.img {
+	width: 173px;
+	border: solid 2px rgb(198, 146, 0);
+}
+
+#profiles > .card > article > div.img > a {
+	display: block;
+	text-decoration: none;
+}
+
+#profiles > .card > article > div.img > a > img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+#profiles > .card > article > div.info {
+	width: 100%;
+	max-width: 500px;
+	margin-left: 15px;
+	color: #666666;
+}
+
+#profiles > .card > article > div.info > header {
+	padding: 1px;
+	text-align: left;
+}
+
+#profiles > .card > article > div.info > header > a {
+	display: block;
+	text-decoration: none;
+}
+
+#profiles > .card > article > div.info > header > a > h3 {
+	margin: 0;
+	font-family: 'Ofl Sort Mill Goudy', sans-serif;
+	font-size: 20px;
+	color: rgb(198, 146, 0);
+}
+
+#profiles > .card > article > div.info > span{
+	display: block;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+#profiles > .card > article > div.info > ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+#profiles > .card > article > div.info > ul > li > a {
+	color: #666666;
+}
+
+/****************************
+ * STYLES PROFILE
+ *******************************
+ *
+ *
+ *
+ **/
+
+#caratula {
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: solid 1px #C4C4C4;
+	padding: 65px 0;
+}
+
+#caratula > .img {
+	width: 203px;
+	margin: 0 auto;
+	border: solid 2px rgb(198, 146, 0);
+}
+
+#caratula > .img > img {
+	display: block;
+	padding: 0;
+	margin: 0;
+	border: none;
+	width: 100%;
+	height: auto;
+}
+
+#caratula > .info {
+	text-align: center;
+}
+
+#caratula > .info > header {
+	padding: 1px;
+}
+
+#caratula > .info > header > h3 {
+	margin: 0;
+	font-family: 'Ofl Sort Mill Goudy', sans-serif;
+	font-size: 32px;
+	color: rgb(198, 146, 0);
+	margin-top: 30px;
+}
+
+#caratula > .info > span {
+	display: block;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	/*font-weight: 600;*/
+	margin-bottom: 30px;
+	color: #666;
+}
+
+#caratula > .info > ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+#caratula > .info > ul a {
+	color: #333;
+	text-decoration: none;
+}
+
+#caratula > .info > ul .download-cv {
+	color: rgb(198, 146, 0);
+}
+
+.article-profile {
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: solid 1px #c4c4c4;
+	padding: 45px 0;
+	color: #666666;
+}
+
+.article-profile > header {
+	padding: 1px;
+}
+
+.article-profile > header > h3 {
+	margin: 0;
+	font-family: 'Ofl Sort Mill Goudy', sans-serif;
+	font-size: 32px;
+	color: rgb(198, 146, 0);
+	margin-bottom: 15px;
+}
+
+.article-profile > p {
+	margin: 0;
+		-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    	-moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    	-webkit-column-gap: 42px; /* Chrome, Safari, Opera */
+    	-moz-column-gap: 42px; /* Firefox */
+    column-gap: 42px;
+}
+
+/****************************
+ * STYLES LINEAS DE INVESTIGACION
+ *******************************
+ *
+ *
+ *
+ **/
+
+.article-1-col {
+	width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #666666;
+    padding: 45px 0;
+    border-bottom: solid 1px #c4c4c4;
+}
+
+.article-1-col > header {
+	padding: 1px;
+	margin-bottom: 20px;
+}
+
+.article-1-col > header  > h3 {
+	margin: 0;
+	font-family: 'Ofl Sort Mill Goudy', sans-serif;
+	color: rgb(198, 146, 0);
+	font-size: 32px;
+}
+
+.ul-lin-inv {
+	margin: 0;
+	padding: 0;
+}
+
+.ul-lin-inv > li  {
+	margin-bottom: 1em;
+	list-style-image: url('../img/svg/fchita_dorada.svg');
+}
+
+.ul-lin-inv > li:last-child {
+	margin-bottom: 0;
+}
+
+.ul-lin-inv > li > span {
+	color: rgb(198, 146, 0);
+	font-weight: 400;
+	margin-right: 5px;
+}
+
+/****************************
+ * STYLES PRODUCTIVIDAD
+ *******************************
+ *
+ *
+ *
+ **/
+
+.cards-productividad {
+	width: 90%;
+	max-width: 672px;
+	margin: 0 auto;
+	padding: 60px 0 25px;
+}
+
+.cards-productividad > header {
+	padding: 1px;
+}
+
+.cards-productividad > header > h2 {
+	margin: 0;
+	font-family: 'Ofl Sort Mill Goudy', sans-serif;
+	color: rgb(198, 146, 0);
+	font-size: 32px;
+}
+
+.cards-productividad > .card-productividad {
+	border: solid 1px #AFAFAF;
+	width: 100%;
+	position: relative;
+	padding: 20px 30px;
+	font-family: 'Open Sans', sans-serif;
+	color: #666666;
+	margin: 25px 0;
+}
+
+.cards-productividad > .card-productividad > .root {
+	font-style: italic;
+	color: rgb(198, 146, 0);
+}
+
+.cards-productividad > .card-productividad > span {
+	background-color: rgb(198, 146, 0);
+	color: rgb(255,255,255);
+	padding: 5px;
+	position: absolute;
+	right: 0;
+	bottom: 15px;
+}
+
+/****************************
+ * STYLES COLABORACIONES
+ *******************************
+ *
+ *
+ *
+ **/
+
+.section-colaboraciones {
+	width: 90%;
+	max-width: 875px;
+	margin: 45px auto;
+}
+
+.ul-colaboraciones {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	list-style: none;
+}
+
+.ul-colaboraciones > li {
+	padding: 15px;
+	padding-left: 140px;
+}
+
+.ul-colaboraciones > li:nth-child(even) {
+	background-color: #e8e8e8;
+}
+
+.f-colaboraciones {
+	background: url(../img/svg/fchita_dorada_derecha.svg);
+    display: inline-block;
+    width: 7px;
+    height: 13px;
+    margin-right: 5px;
+    vertical-align: top;
+    margin-top: 4px;
+}
+
+/****************************
+ * STYLES PROYECTOS VIGENTES
+ *******************************
+ *
+ *
+ *
+ **/
+
+.cards-proyectos {
+	width: 90%;
+	max-width: 720px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.cards-proyectos > .card-proyecto {
+	width: 100%;
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 25px 0;
+	font-family: 'Open Sans', sans-serif;
+	color: #666666;
+}
+
+.cards-proyectos > .card-proyecto > header {
+	padding: 1px;
+	margin-bottom: 10px;
+}
+
+.cards-proyectos > .card-proyecto > header > h3 {
+	color: rgb(198, 146, 0);
+	font-size: 19px;
+	margin: 0;
+}
+
+.cards-proyectos > .card-proyecto:after {
+	content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #c4c4c4;
+    margin-top: 25px;
+}
+
+.cards-proyectos > .card-proyecto:last-child:after {
+    display: none;
+}
+
+/****************************
+ * STYLES CONTACTO
+ *******************************
+ *
+ *
+ *
+ **/
+
+.section-info-contact {
+	margin: 45px auto;
+	padding: 15px 5px;
+	width: 90%;
+	max-width: 300px;
+	border: solid 1px #2a4c72;
+	text-align: center;
+	color: #2a4c72;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.section-info-contact header {
+	padding: 1px;
+}
+
+.section-info-contact header h3 {
+	margin: 0px;
+	color: rgb(198, 146, 0);
+	font-family: 'Ofl Sort Mill Goudy', sans-serif;
+	font-size: 25px;
+}
+
+#contact-mapita {
+	display: block;
+}
+
+.section-title-contact {
+	width: 90%;
+	max-width: 700px;
+	margin: 0 auto 45px;
+	border-bottom: solid 3px rgb(198, 146, 0);
+}
+
+.section-title-contact header {
+	padding: 1px;
+}
+
+.section-title-contact header h2 {
+	text-align: center;
+	margin: 0;
+	color: rgb(198, 146, 0);
+	font-size: 40px;
+	font-family: 'Ofl Sort Mill Goudy', sans-serif;
+}
+
+.section-form-contact {
+	width: 90%;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.section-form-contact input[type="text"],
+.section-form-contact input[type="email"],
+.section-form-contact select, 
+.section-form-contact textarea {
+	display: block;
+	width: 100%;
+}
+
+.section-form-contact legend {
+	color: rgb(198, 146, 0);
+	font-family: 'Ofl Sort Mill Goudy', sans-serif;
+}
+
+.section-form-contact label {
+	color: #666666;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+}
+
+.section-form-contact input[type="submit"] {
+	background-color: #2a4c72;
+	border-color: #2a4c72;
+	border: none;
+	padding: 6px 12px;
+	color: rgb(255,255,255);
+}
+
+.section-form-contact input[type="submit"]:hover {
+	background-color: rgb(198, 146, 0);
+}
+
+/****************************
+ * STYLES CONTACTO
+ *******************************
+ *
+ *
+ *
+ **/
+
+.tabHolder > div {
+	display: none;
+}
+
+.tabActive {
+	display: block !important;
+	-webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+.aspect-ratio-169 {
+	background-color: red;
+	position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.aspect-ratio-169 > div {
+	position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+
+.owl-carousel .owl-item .item-infraestructura {
+	width: 100%;
+	height: 100%;
+	max-height: 660px;
+	background-size: cover;
+	background-position: center;
+}
+
+.infraestructura-owl-carousel .owl-prev {
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	width: 40px;
+}
+
+.infraestructura-owl-carousel .owl-next {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	width: 40px;
+}
+
+.infraestructura-owl-carousel .description {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, .58);
+	color: rgb(255,255,255);
+	padding: 0 50px;
+}
+
+.infraestructura-owl-carousel .description .toolbar-social {
+	float: right;
+	margin-top: 31px;
+}
+
+.infraestructura-owl-carousel .description .txt {
+	float: left;
+	padding: 15px 0;
+}
+
+.infraestructura-owl-carousel .description .txt > p {
+	margin: 0;
+	padding: 0;
+}
+
+.infraestructura-owl-carousel .description .toolbar-social > a {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.infraestructura-owl-carousel .description .toolbar-social > a > img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: block;
+	width: 36px;
+	height: auto;
+}
+
+/****************************
+ * STYLES EVENTOS
+ *******************************
+ *
+ *
+ *
+ **/
+
+.evento-noticia {
+	width: 100%;
+	max-width: 750px;
+	margin: 0 auto;
+	padding: 1px;
+}
+
+.evento-noticia > h2 {
+	margin: 0;
+    font-family: 'Ofl Sort Mill Goudy', sans-serif;
+    font-size: 32px;
+    color: rgb(198, 146, 0);
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.evento-noticia > h2:after {
+	display: block;
+    content: '';
+    width: 65%;
+    height: 1px;
+    background-color: rgb(198, 146, 0);
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.evento-noticia > figure {
+	width: 100%;
+	margin: 45px 0;
+}
+
+.evento-noticia > figure > img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.evento-noticia > article {
+	color: #666;
+	margin-bottom: 90px;
+}
+
+.evento-noticia > .toolbar-social {
+	margin-bottom: 20px;
+}
+
+.evento-noticia > .sub-title-1 {
+	text-align: center;
+	display: block;	
+	font-size: 18px;
+	color: #666;
+}
+
+.evento-noticia > .sub-title-2 {
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	color: #666;
+	font-weight: 100;
+}

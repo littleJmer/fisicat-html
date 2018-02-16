@@ -1,0 +1,417 @@
+@media only screen and (max-width : 1865px) {
+
+	#profiles {
+		text-align: center;
+	}
+
+}
+
+@media only screen and (max-width : 1366px) {
+
+	#head_menu_header {
+		max-width: 920px;
+	}
+
+	#menu_header > nav a {
+		font-size: 16px;
+		padding: 10px;
+	}
+
+	.wrapper-slide {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#eventos-owl-carousel {
+		margin: 0 auto;
+	}
+
+	#noticias-owl-carousel {
+		margin: 0 auto;
+	}
+
+	.eventos-noticias-owl-carousel .owl-item {
+		text-align: center;
+	}
+
+	.eventos-noticias-owl-carousel .owl-item > div > .card {
+		display: inline-block;
+		width: 32%;
+	}
+
+	.eventos-noticias-owl-carousel .owl-item > div > .card > a > article > img {
+		width: 100%;
+	}
+
+	.eventos-noticias-owl-carousel .owl-item > div > .card > a > article > p {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width : 1250px) {
+
+	.menu_close {
+		background-image: url(../img/svg/menu_resp.svg);
+	}
+
+	.menu_open {
+		background-image: url(../img/svg/tacha_resp.svg);
+	}
+
+	.menu-hidden{
+		height: 0px !important;
+	}
+
+	.display-block {
+		display: block !important;
+	}
+
+	#menu_header {
+		padding: 0 !important;
+	}
+
+	#menu_header > nav {
+		background-color: rgba(42, 76, 114, 0.8);
+	}
+
+	#menu_header > nav > ul {
+		text-align: left;
+	}
+
+	#menu_header > nav > ul > li {
+		display: block;
+	}
+
+	#menu_header > nav > ul > li.sub_menu_ul > ul {
+		display: none;
+		position: static;
+	}
+
+	#menu_header > nav > ul > li > ul > li {
+		margin-left: 20px;
+	}
+
+	#menu_header > nav #logo-cnyn {
+		display: none;
+	}
+
+	#menu_header > nav > div#logo-unam {
+		display: none;
+	}
+
+	#head_menu_header {
+		max-width: 100%;
+		border-bottom: none;
+		padding: 0;
+	}
+
+	#head_menu_header > a {
+		text-decoration: none;
+		display: block;
+	}
+
+	#head_menu_header > a > #logo_unam_2 {
+		display: inline-block;
+	}
+
+	#head_menu_header > a > #h1_header > h1 {
+		font-weight: 300;
+		font-size: 20px;
+		margin-left: 20px;
+	}
+
+	#head_menu_header > .right-header {
+		display: inline-block;
+	}
+
+	#head_menu_header > .right-header > .btn_menu {
+		display: inline-block;
+	}
+
+	#head_menu_header > .right-header > #logo_cnyn_2 {
+		border-right: solid 1px #ececec;
+    	margin-right: 10px;
+    	padding-right: 10px;
+	}
+
+	#menu_ul {
+		overflow: hidden;
+		height: auto;
+	}
+	
+	.title-page {
+		min-height: 280px;
+	}
+
+	.title-page h2 {
+		bottom: 42px !important;
+	}
+
+}
+
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Tablets, Desktops */
+@media only screen and (max-width : 1024px) {
+    
+    #footer-table {
+        float: none;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .article-profile > p {
+		margin: 0;
+	    	-webkit-column-gap: 32px; /* Chrome, Safari, Opera */
+	    	-moz-column-gap: 32px; /* Firefox */
+	    column-gap: 32px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.title-page {
+		min-height: 198px;
+	}
+
+	.title-page h2 {
+		bottom: 37px !important;
+	}
+
+	#caratula > .info > header > h3 {
+		font-size: 17px;
+	}
+
+	.article-profile > p {
+		margin: 0;
+			-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    	-moz-column-count: 1; /* Firefox */
+	    column-count: 1;
+
+	    	-webkit-column-gap: 0px; /* Chrome, Safari, Opera */
+	    	-moz-column-gap: 0px; /* Firefox */
+	    column-gap: 0px;
+	}
+
+}
+
+
+@media only screen and (max-width : 950px) {
+
+	#profiles {
+		width: 100%;
+		padding: 0;
+	}
+
+	#profiles > .card {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	#profiles > .card > article {
+		align-items: flex-start;
+	}
+
+	#profiles > .card > article > div.img {
+		display: block;
+		margin: 0 10px;
+	}
+
+	#profiles > .card > article > div.info {
+		display: block;
+		margin: 0 0 !important;
+		text-align: left;
+	}
+
+	#profiles > .card > article > div.info > header {
+		text-align: left;
+	}
+
+	#profiles > .card > article > div.info > header > h3 {
+		font-size: 20px;
+	}
+
+	.ul-colaboraciones > li {
+		padding-left: 25px;
+	}
+
+}
+
+@media only screen and (max-width : 800px) {
+
+	#inicio-owl-carousel .owl-prev {
+		background-color: transparent; 
+	}
+
+	#inicio-owl-carousel .owl-next {
+		background-color: transparent; 
+	}
+
+	.item-inicio-info {
+		right: 25px;
+		top: 71.2%;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	nav.nav-directorio {
+		border-bottom: none;
+		padding: 0;
+	}
+
+	nav.nav-directorio > ul > li {
+		display: block !important;
+		position: relative;
+		border-right: none;
+	}
+
+	nav.nav-directorio > ul > li::after {
+		display: block;
+		content: " ";
+		width: 240px;
+		height: 1px;
+		background-color: #C4C4C4;
+		margin: 0 auto;
+	}
+
+	nav.nav-directorio > ul > li:last-child::after {
+		content: none;
+	}
+
+	.wrapper-slide {
+		width: 100%
+	}
+
+	.eventos-noticias-owl-carousel {
+		width: 100%;
+	}
+
+	.eventos-noticias-owl-carousel .owl-item {
+		padding: 0;
+	}
+
+	.eventos-noticias-owl-carousel .owl-item > div > .card {
+		display: block;
+		width: 100%;
+		padding: 0;
+	    position: relative;
+	    border: none;
+	    margin: 0;
+	    padding-bottom: 2px;
+	}
+
+	.eventos-noticias-owl-carousel .owl-item > div > .card > a > article > header {
+		position: absolute;
+		width: 100%;
+		bottom: 2px;
+		z-index: 1;
+		margin: 0;
+		padding: 15px 60px 15px 15px;
+		background-color: rgba(42, 76, 114, 0.8);
+	}
+
+	.eventos-noticias-owl-carousel .owl-item > div > .card > a > article > header > h3 {
+		font-size: 16px;
+		color: #FFF;
+	}
+
+	.eventos-noticias-owl-carousel .owl-item > div > .card > a > article > header > span {
+		font-size: 14px;
+	}
+
+	.eventos-noticias-owl-carousel .owl-item > div > .card > a > article > img {
+		width: 100%;
+	}
+
+	.eventos-noticias-owl-carousel .owl-item > div > .card > a > article > p {
+		display: none;
+	}
+
+	.evento-noticia > .toolbar-social {
+		width: 90%;
+		margin: 0 auto 20px;
+	}
+
+	.evento-noticia > article {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	#profiles > .card:after {
+		left: 0px;
+		width: 100%;
+	}
+
+	#profiles > .card > article {
+		flex-direction: column;
+    	align-items: center;
+	}
+
+	#profiles > .card > article > div.info {
+		text-align: center;
+		margin-top: 15px !important;
+	}
+
+	#profiles > .card > article > div.info > header {
+		text-align: center;
+	}
+
+}
+
+@media only screen and (max-width : 720px) {
+	
+	.article-1-col > header  > h3 {
+		font-size: 28px;
+		text-align: left;
+	}
+
+	.item-inicio-info a span img {
+		width: 15px !important;
+	}
+
+	.ul-lin-inv {
+		text-align: left;
+	}
+
+	.item-inicio-info a {
+		font-size: 30px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+	#molecula {
+		width: 190;
+		margin: 20px auto;
+	}
+	
+	.title-page h2 {
+		font-size: 30px;
+		bottom: 50px !important;
+	}
+
+	.article-1-col > header  > h3 {
+		font-size: 24px;
+	}
+
+	.item-inicio-info a {
+		font-size: 25px;
+	}
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}

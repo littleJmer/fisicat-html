@@ -1,0 +1,1 @@
+ln -sv /usr/local/var/www/htdocs/laravel/storage/app/public /usr/local/var/www/htdocs/cnyn_voyager_update/storage
